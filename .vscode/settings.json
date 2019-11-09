@@ -1,0 +1,6 @@
+{
+    "files.exclude": {
+        "**/*.rpa": true,
+        "**/*.rpyc": true
+    }
+}
