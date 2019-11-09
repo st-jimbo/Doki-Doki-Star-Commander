@@ -8,4 +8,4 @@ It's the far, far future. The Literature Club, in their very own starship, have 
 - Command your ship with each Doki assigned to a system on the ship. Communicate with your crew and optimize your ship's systems when the situation calls for it!
 - Strengthen your ship with upgrades such as new shield generators, engines, weapons, or just acquire a new ship altogether. Don't slack, as the enemy will only get tougher!
 - (WIP) Space is mysterious, so you never know what you'll encounter out there with random events alongside the main story. Don't be afraid to take risks, captain, as you may surely be rewarded.
-- (WIP) A story where you are tasked with bringing the dokis back home in one piece.
+- (WIP) A story where you are tasked with bringing the Dokis back home in one piece.
