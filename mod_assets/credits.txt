@@ -1,3 +1,6 @@
+- Code -
+DDLC Mod Template - GanstaKingofSA
+
 - Backgrounds -
 Menu - Miriam Espacio
 School Roof - yagamirai10#7046 / Kimagure After
@@ -21,7 +24,6 @@ Starship Launch - Ideacraft (freesound.org)
 Laser Fire - klangfabrik / unfa (freesound.org)
 Cannon Fire - qubodup (freesound.org)
 Missiles - C3Sabertooth (freesound.org)
-
 
 - Inspiration -
 FTL: Faster Than Light - Subset Games
