@@ -34,7 +34,7 @@ init 1 python:
 
     # Halberd cruiser (default ship)
     halberd = Ship("Halberd-class cruiser", "halberd", 100)
-    halberd.desc = "Standard light cruiser."
+    halberd.desc = "Standard-issue warship which packs improved armor."
     halberd.maxhp = 25
     halberd.primary = pr_halberd
     halberd.secondary = se_artemis
@@ -44,7 +44,7 @@ init 1 python:
 
     # Longsword destroyer
     longsword = Ship("Longsword-class destroyer", "longsword", 100)
-    longsword.desc = "Destroyer."
+    longsword.desc = "A multipurpose warship that excels in most combat situations."
     longsword.maxhp = 20
     longsword.primary = pr_burst1
     longsword.secondary = se_artemis
@@ -54,7 +54,7 @@ init 1 python:
 
     # Broadsword frigate
     broadsword = Ship("Broadsword-class frigate", "broadsword", 100)
-    broadsword.desc = "Frigate."
+    broadsword.desc = "A small but agile warship."
     broadsword.maxhp = 15
     broadsword.primary = pr_lcannon1
     broadsword.secondary = se_hcannon1
