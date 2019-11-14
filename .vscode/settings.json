@@ -2,5 +2,6 @@
     "files.exclude": {
         "**/*.rpa": true,
         "**/*.rpyc": true
-    }
+    },
+    "discord.enabled": true
 }
