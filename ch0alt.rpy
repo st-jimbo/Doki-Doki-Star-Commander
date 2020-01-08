@@ -190,7 +190,7 @@ label ch0_alt:
     "Monika was probably the most popular girl in class - smart, beautiful, athletic."
     "Basically, completely out of my league."
     "So, having her smile at me so genuinely feels a little..."
-    mc "Y-You too, Monika."
+    mc "Ah, you too, Monika."
     "Something seems off about her, but I do my best to ignore that thought."
     show monika zorder 1 at thide
     hide monika
