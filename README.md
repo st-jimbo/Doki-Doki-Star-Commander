@@ -3,6 +3,8 @@
 
 It's the far, far future. The Literature Club, in their very own starship, have found themselves in a bit of a predicament as a miscalculated jump landed them thousands of light years away from Earth. It's a long journey back home and it's up to you to bring them back in one piece!
 
+https://imgur.com/a/9L75oPS
+
 ## Features
 - Turn-based ship-to-ship combat, charge up your weapons and blast enemy ships and pirates apart!
 - Command your ship with each Doki assigned to a system on the ship. Communicate with your crew and optimize your ship's systems when the situation calls for it!
