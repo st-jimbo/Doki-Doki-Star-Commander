@@ -9,5 +9,5 @@ screen playerstats:
     text "[ammo]" xpos 58 ypos 100
     text "[shields]/[maxshields]" xpos 204 ypos 65
     text "[dodge]" xpos 204 ypos 100
-    text "[shipname]" xpos 15 ypos 12
-    text "[shipclass]" xpos 15 ypos 34
+    text "[shipname]" xpos 15 ypos 10 size 12
+    text "[shipclass.name]" xpos 15 ypos 34
