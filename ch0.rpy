@@ -345,8 +345,17 @@ label ch0:
         m 1k "Sticking to the defaults I see, [player]?"
     elif shipname == "Bismarck" or shipname == "KMS Bismarck":
         mc "Pride of a nation..."
-        m 1b "...A beast made of steel!"
-        mc "Bismarck in motion, king of the ocean..."
+        mc "...a beast made of steel..."
+        m 1b "Good choice [player]!"
+    elif shipname == "Hood" or shipname == "HMS Hood":
+        mc "The Mighty Hood..."
+        m 1b "Good choice [player]!"
+    elif shipname == "Samuel B Roberts" or shipname == "USS Samuel B Roberts":
+        mc "The destroyer escort that fought like a battleship..."
+        m 1b "Good choice [player]!"
+    elif shipname == "Laffey" or "USS Laffey":
+        mc "The ship that would not die..."
+        m 1b "Good choice [player]!"
     else:
         m 1b "Good choice [player]!"
     m 1b "By the way, I need to tell you something. Follow me."

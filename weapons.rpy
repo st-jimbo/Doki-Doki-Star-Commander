@@ -182,8 +182,8 @@ label artemis:
 # QF 4-inch Cannon (hcannon1)
 # Damage: 4-5
 init python:
-    se_hcannon1 = Weapon("QF 4-inch Cannon", 75, 2, "hcannon1")
-    se_hcannon1.desc = "Repurposed naval gun firing armor-piercing shells.\n4-5 DMG"
+    se_hcannon1 = Weapon("QF 4-inch Gun", 75, 2, "hcannon1")
+    se_hcannon1.desc = "Old, but still effective Royal Navy dual-purpose cannon.\n4-5 DMG"
 label hcannon1:
     n "Fire in the hole!"
 

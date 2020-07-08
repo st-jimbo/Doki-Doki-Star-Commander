@@ -34,6 +34,8 @@ label gameover:
     if shipname == "Bismarck" or shipname == "KMS Bismarck":
         "{i}At the bottom of the ocean, the depths of the abyss, they are bound by iron and blood.{/i}"
         "{i}The flagship of the navy, the terror of the seas, his guns have gone silent at last...{/i}"
+    elif shipname == "Hood" or shipname == "HMS Hood":
+        "One last explosion marks the end of the mighty battlecruiser Hood."
     else:
         "One last explosion marks your fate as your ship is torn apart."
     show monika 1a zorder 2 at t11
