@@ -20,7 +20,7 @@ init 1 python:
 
         def changeship(self):
             global shipclass, sprite, maxhp, hp
-            shipclass = self
+            shipclass = self.name
             sprite = self.sprite
             maxhp = self.maxhp
             hp = self.maxhp
