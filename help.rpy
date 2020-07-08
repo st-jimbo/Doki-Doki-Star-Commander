@@ -12,6 +12,17 @@ label help:
 
 label helpmenu:
     menu:
+        "HUD":
+            show monika 1a zorder 2 at t11
+            mc "What's being displayed on the HUD?"
+            m 4b "The HUD displays the vital statistics of the ship: hull, shields, ammo, dodge, and credit balance!"
+            m 3l "The wrench icon displays the ship's current hull integrity. You do not want this to reach zero!"
+            m 3a "The shield icon displays the status of the ship's shields. This is how many hits it can take before going offline."
+            m 3b "The missile icon displays ammunition amount, which is required for secondary weapons."
+            m 4k "Lastly, the fast ship icon displays dodge chance, which is the chance to completely avoid an attack!"
+            m 1a "Was there anything else you needed help with?"
+            jump helpmenu
+
         "Power Distribution":
             show monika 1a zorder 2 at t11
             mc "Do you know how power distribution works?"
