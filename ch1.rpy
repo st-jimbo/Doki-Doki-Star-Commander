@@ -22,6 +22,7 @@ label ch1s1:
     
     mc "Shit, that doesn't sound good."
     mc "Looks like we'll make our way there."
+    show screen playerstats
     call shipmenu
     
     m "[player], mind if I fly towards that deactivated drone on the map?"

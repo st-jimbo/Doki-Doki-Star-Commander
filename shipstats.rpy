@@ -5,7 +5,7 @@
 
 # Default ship variables
 default shipname = "Kestrel"
-default shipclass = halberd.desc
+default shipclass = halberd.name
 default sprite = halberd.sprite
 default maxhp = 25
 default hp = 25
