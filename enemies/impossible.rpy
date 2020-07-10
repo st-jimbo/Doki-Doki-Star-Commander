@@ -9,6 +9,7 @@ label impossible:
 
     # Enemy ship stats
     $ enemy = "USS Indestructible" # Enemy ship name
+    $ enemyclass = "Vindicator-class Battlescruiser" # Enemy ship class
     $ enemydesc = "I don't know what that is, other than the fact that it's impossible to destroy." # Enemy ship description
     $ enemymaxhp = 50 # Enemy max HP
     $ enemyhp = 50 # Enemy HP, should be same as max HP
@@ -52,6 +53,7 @@ label impossible:
     ########
     
     play sound shipexplode # Victory
+    hide screen enemystats
     $ pause(1.6)
     
     # Swap back to explore mode
@@ -71,6 +73,8 @@ label impossible:
     
 # Battle in progress
 label impossible2:
+    show screen enemystats
+
     # Player's Turn
     call playerturn
     $ ehealth() # Check if enemy dies

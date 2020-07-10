@@ -8,8 +8,9 @@ label examplehostilebattle:
     $ battle = "examplehostilebattle" # Name of battle label
 
     # Enemy ship stats
-    $ enemy = "Rebel patrol ship" # Enemy ship name
-    $ enemydesc = "The enemy is a Rebel patrol ship, armed with a single light laser cannon." # Enemy ship description
+    $ enemy = "RB-P105" # Enemy ship name
+    $ enemyclass = "Type 10 patrol ship" # Enemy ship class
+    $ enemydesc = "The enemy is a Rebel patrol ship, armed with a single laser cannon." # Enemy ship description
     $ enemymaxhp = 10 # Enemy max HP
     $ enemyhp = 10 # Enemy HP, should be same as max HP
     $ reward = 25 # How much credits should be given upon enemy defeat
@@ -47,6 +48,7 @@ label examplehostilebattle:
     ########
     
     play sound shipexplode # Victory
+    hide screen enemystats
     $ pause(1.6)
     
     # Swap back to explore mode
@@ -68,6 +70,8 @@ label examplehostilebattle:
     
 # Battle in progress
 label examplehostilebattle2:
+    show screen enemystats
+
     # Player's Turn
     call playerturn
     $ ehealth() # Check if enemy dies

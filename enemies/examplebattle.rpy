@@ -8,7 +8,8 @@ label examplebattle:
     $ battle = "examplebattle" # Name of battle label
 
     # Enemy ship stats
-    $ enemy = "Unarmed drone" # Enemy ship name
+    $ enemy = "RB-D400" # Enemy ship name
+    $ enemyclass = "Target drone" # Enemy ship class
     $ enemydesc = "It's a completely deactivated drone with no way of defending itself." # Enemy ship description
     $ enemymaxhp = 10 # Enemy max HP
     $ enemyhp = 10 # Enemy HP, should be same as max HP
@@ -41,6 +42,7 @@ label examplebattle:
     ########
     
     play sound shipexplode # Victory
+    hide screen enemystats
     $ pause(1.6)
     
     # Swap back to explore mode
@@ -59,7 +61,7 @@ label examplebattle:
     
 # Battle in progress
 label examplebattle2:
-    show screen playerstats
+    show screen enemystats
 
     # Player's Turn
     call playerturn

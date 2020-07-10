@@ -23,7 +23,7 @@ label ch1s1:
     mc "Shit, that doesn't sound good."
     mc "Looks like we'll make our way there."
     call screen dialog("If you are unsure on what to do,\nmake sure to speak with Monika for advice.", ok_action=Return())
-    show screen playerstats
+    show screen playerstats # Show the player stat hud
     call shipmenu
     
     m "[player], mind if I fly towards that deactivated drone on the map?"

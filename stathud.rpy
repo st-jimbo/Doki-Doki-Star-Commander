@@ -12,3 +12,9 @@ screen playerstats:
     text "[credits] CR" xpos 27 ypos 143
     text "[shipname]" xpos 15 ypos 10
     text "[shipclass.name]" xpos 15 ypos 36  size 18
+
+screen enemystats:
+    add "mod_assets/gui/enemystats.png" xpos 1007
+    text "[enemyhp]/[enemymaxhp]" xpos 1270 ypos 56 xalign 1.0
+    text "[enemy]" xpos 1270 ypos 7 xalign 1.0
+    text "[enemyclass]" xpos 1270 ypos 32  size 16 xalign 1.0
