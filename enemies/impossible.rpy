@@ -9,7 +9,7 @@ label impossible:
 
     # Enemy ship stats
     $ enemy = "USS Indestructible" # Enemy ship name
-    $ enemyclass = "Vindicator-class Battlescruiser" # Enemy ship class
+    $ enemyclass = "Vindicator-class Battlecruiser" # Enemy ship class
     $ enemydesc = "I don't know what that is, other than the fact that it's impossible to destroy." # Enemy ship description
     $ enemymaxhp = 50 # Enemy max HP
     $ enemyhp = 50 # Enemy HP, should be same as max HP
