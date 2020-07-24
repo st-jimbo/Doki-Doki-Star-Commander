@@ -40,7 +40,7 @@ init python:
 # Player attack. Defines the actions the player can take for their turn.
 label playerturn:
     menu:
-        "[shipname]: [hp]/[maxhp] | [shields]/[maxshields] | [dodge]\% dodge | [ammo] ammo\n[enemy]: [enemyhp]/[enemymaxhp]\n{fast}"
+        n "Waiting on you, [player]...{fast}"
         
         "Fire Primary\n([shipprimary.name])":
             call expression shipprimary.label
@@ -84,8 +84,14 @@ init python:
     pr_halberd.desc = "A standard beam laser found on most cruisers.\n1-3 DMG"
 label halberd:
     n "Opening fire!"
+    show red_laser
     play sound hbeam
-    $ pause(1)
+    $ pause(1.9)
+    hide red_laser
+    show red_laser_2
+    $ pause(0.05)
+    hide red_laser_2
+
             
     $ rdmg = renpy.random.randint(1, 3)
     $ dmg = rdmg + bonusdmg
@@ -106,13 +112,22 @@ init python:
     pr_burst1.desc = "A common twin burst laser repeater.\n2-3 DMG"
 label burst1:
     n "Opening fire!"
+    show red_laser_pulse
     play sound laser1
-    $ pause(0.25)
+    $ pause(0.125)
+    hide red_laser_pulse
+
+    $ pause(0.125)    
+    show red_laser_pulse
     play sound laser1
-    $ pause(0.75)
+    $ pause(0.125)
+    hide red_laser_pulse
+
+    $ pause(0.625)
     play sound hull1
     $ pause(0.25)
     play sound hull1
+    hide red_laser_pulse
     
     $ rdmg = renpy.random.randint(2, 3)
     $ dmg = rdmg + bonusdmg
@@ -133,8 +148,11 @@ init python:
     pr_lcannon1.desc = "Standard-issue laser cannon found on Federation destroyers.\n2 DMG"
 label lcannon1:
     n "Opening fire!"
+    show red_laser_pulse
     play sound hlaser
-    $ pause(1)
+    $ pause(0.125)
+    hide red_laser_pulse
+    $ pause(0.875)
     play sound renpy.random.choice(rhull)    
     
     $ rdmg = renpy.random.randint(2, 2)
