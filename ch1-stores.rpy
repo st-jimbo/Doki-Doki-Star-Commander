@@ -7,7 +7,7 @@
 label ch1store1:
     $ storename = "ch1store1" # Main store label
     menu:
-        "[shipname] ([shipclass])\nHull: [hp]/[maxhp]\nBalance: [credits] CR{fast}"        
+        m "This station should have some useful equipment for us."        
         "Ship Maintenance":
             jump expression storename + "m"
         "Weapons":
@@ -21,7 +21,7 @@ label ch1store1:
             
 label ch1store1w:
     menu:
-        "Primary Weapon: [shipprimary.name]\nSecondary Weapon: [shipsecondary.name]\nAugment: [shipaugment.name]{fast}"
+        n "You're buying new weapons? What will it be, [player]?"
         
         "[pr_halberd.name]\nPrimary | [pr_halberd.price] CR" if shipprimary.name != pr_halberd.name:
             menu:
@@ -90,7 +90,7 @@ label ch1store1m:
     $ fullrepair = (maxhp - hp) * repairprice
     $ ammoprice = 5 # Price for 1 ammo
     menu:
-        "Hull: [hp]/[maxhp]\nAmmo: [ammo]\nBalance: [credits] CR{fast}"
+        y "It's a good idea to keep our ship well maintained, captain."
         
         "Repair 1 HP ([repairprice] CR)" if hp < maxhp:
             if (credits - repairprice) < 0:
