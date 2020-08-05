@@ -13,17 +13,13 @@ label intro:
     # Debug purposes only
     call shipselect
     menu:
-        "Would you like to skip the intro?"        
+        "Would you like to skip the intro? Be adviced that the intro sequence is a VERY rough sketch."        
         "Yes":            
             "With the Sol system besieged, it appears there is no safe place to go that is devoid of Rebel influence..."
             "...unless, you look to the stars."
             return
         "No":
             jump ch0
-        "Re-live Day 1":
-            "Caution: Memory integrity at 87\%. Slight deviations may be encountered."
-            "Accessing memory banks..."
-            jump ch0_alt
     
 label ch0:
     stop music fadeout 2.0
